@@ -1,0 +1,50 @@
+/* pages/discover/discover.wxss */
+.container{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+.firstPanel{
+  height: 300rpx;
+  background-color: silver;
+  display: flex;
+  flex-direction: row;
+}
+.servicePanel{
+  min-height: 600rpx;
+  background-color: white;
+  margin: 20rpx 0;
+}
+.serviceTitle{
+  padding: 20rpx;
+  border: 1rpx solid silver;
+  font-size: 30rpx;
+  color: gray;
+}
+.serviceBlocks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+image{
+  height: 300rpx;
+  width: 800rpx;
+}
+.box1{
+  border: 1rpx solid silver;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 49%;
+  height: 300rpx;
+}
+.box1 image {
+  width: 300rpx;
+  height: 250rpx;
+}
+.box1 text{
+  font-size: 30rpx;
+}

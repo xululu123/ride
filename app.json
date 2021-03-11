@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/discover/discover",
+    "pages/team/team",
+    "pages/my/my",
+    "pages/shezhi/shezhi",
+    "pages/uploading/uploading",
+    "pages/logo/logo"
+ 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "骑行天下",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#328EEB",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/1.jpg",
+        "selectedIconPath": "pages/images/1.jpg"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "推荐路线",
+        "iconPath": "pages/images/1.jpg",
+        "selectedIconPath": "pages/images/1.jpg"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "text": "优质团队",
+        "iconPath": "pages/images/1.jpg",
+        "selectedIconPath": "pages/images/1.jpg"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "pages/images/1.jpg",
+        "selectedIconPath": "pages/images/1.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap74.json"
+}

@@ -1,0 +1,128 @@
+/* pages/discover/discover.wxss */
+.container{
+  height: 200vh;
+  display:flex;
+  flex-direction: column;
+}
+.firstPanel{
+  height: 300rpx;
+  background-color: silver;
+  display: flex;
+  flex-direction: row;
+
+}
+.servicePanel1{
+  min-height: 300rpx;
+  background-color: white;
+  margin: 20rpx 0;
+}
+.serviceTitle1{
+  padding: 20rpx;
+  border: 1rpx solid silver;
+  font-size: 30rpx;
+  color: gray;
+}
+.serviceBlocks1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+image{
+  height: 800rpx;
+  width: 800rpx;
+}
+.box1{
+  border: 1rpx solid silver;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 300rpx;
+}
+.box1 image {
+  width: 220rpx;
+  height: 250rpx;
+}
+.box1 text{
+  font-size: 30rpx;
+}
+
+
+
+.servicePanel2{
+  min-height: 300rpx;
+  background-color: white;
+  margin: 20rpx 0;
+}
+.serviceTitle2{
+  padding: 20rpx;
+  border: 1rpx solid silver;
+  font-size: 30rpx;
+  color: gray;
+}
+.serviceBlocks2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+image{
+  height: 300rpx;
+  width: 800rpx;
+}
+.box2{
+  border: 1rpx solid silver;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 300rpx;
+}
+.box2 image {
+  width: 220rpx;
+  height: 250rpx;
+}
+.box2 text{
+  font-size: 30rpx;
+}
+
+
+.servicePanel3{
+  min-height: 600rpx;
+  background-color: white;
+  margin: 20rpx 0;
+}
+.serviceTitle3{
+  padding: 20rpx;
+  border: 1rpx solid silver;
+  font-size: 30rpx;
+  color: gray;
+}
+.serviceBlocks3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.box3{
+  border: 1rpx solid silver;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 300rpx;
+}
+.box3 image {
+  width: 220rpx;
+  height: 250rpx;
+}
+.box3 text{
+  font-size: 30rpx;
+}

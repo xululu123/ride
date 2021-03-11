@@ -1,0 +1,20 @@
+<!--pages/my/my.wxml-->
+<view class="container" bindtap="goToUploading">
+  <view class="listGroup" >
+   <view class="listItem" >
+      <image src="/pages/images/qixing.jpg" ></image>
+      <text >我的昵称</text>
+    </view>
+  </view>
+  </view>
+
+<!--下方列表-->
+<view class="container1">
+  <view class="listGroup1" wx:for="{{list}}" wx:for-item="group" wx:key="group{{index}}">
+     <view class="listItem1" wx:for="{{group}}" wx:for-item="row" wx:key="row{{index}}"bindtap="bindViewTap">
+      <image  src="{{row.icon}}"></image>
+      <text> {{row.text}} </text>
+   
+    </view>
+  </view>
+</view>

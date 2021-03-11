@@ -1,0 +1,36 @@
+
+<view class="container">
+ <view class="firstPanel">
+   <image src="/pages/images/风景1.jpg"></image>
+ </view>
+ <view class="servicePanel1">
+ <view class="serviceTitle1">搜索</view>
+ <view class="serviceBlocks1">
+   <view class="box1"wx:for="{{array1}}"wx:key="array1_{{index}}">
+     <image src="{{item.icon}}"></image>
+     <text>{{item.text}}</text>
+   </view>
+ </view> 
+ </view>
+ <view class="servicePanel2">
+ <view class="serviceTitle2">路线推荐</view>
+ <view class="serviceBlocks2">
+   <view class="box2"wx:for="{{array2}}"wx:key="array2_{{index}}">
+     <image src="{{item.icon}}"></image>
+     <text>{{item.text}}</text>
+   </view>
+ </view> 
+ </view>
+<view class="servicePanel3">
+ <view class="serviceTitle3">团队推荐</view>
+ <view class="serviceBlocks3">
+   <view class="box3"wx:for="{{array3}}"wx:key="array3_{{index}}">
+     <image src="{{item.icon}}"></image>
+     <text>{{item.text}}</text>
+   </view>
+ </view> 
+</view>
+</view>
+
+
+
